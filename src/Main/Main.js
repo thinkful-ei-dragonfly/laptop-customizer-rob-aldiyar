@@ -8,9 +8,9 @@ export default function Main(props) {
       <main>
         <section className="main__form">
           <h3>TECH SPECS AND CUSTOMIZATIONS</h3>
-          <Features features={props.features} selected={props.selected}/>
+          <Features updateFeature={props.updateFeature} features={props.features} selected={props.selected} />
         </section>
-          <Summary summary={props.summary} total={props.total}/>
+          <Summary summary={props.summary} total={props.total} />
       </main>
     );
 }
