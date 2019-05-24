@@ -1,5 +1,5 @@
 import React from 'react';
-import Features from './Features/Features'
+import Features from '../Features/Features'
 
 export default class Form extends React.Component {
   render() {
