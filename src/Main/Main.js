@@ -10,7 +10,7 @@ export default function Main(props) {
           <h3>TECH SPECS AND CUSTOMIZATIONS</h3>
           <Features updateFeature={props.updateFeature} features={props.features} selected={props.selected} />
         </section>
-          <Summary summary={props.summary} total={props.total} />
+          <Summary summary={props.summary} total={props.total} selected={props.selected} />
       </main>
     );
 }
